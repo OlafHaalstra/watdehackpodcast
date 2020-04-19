@@ -122,3 +122,25 @@ a {
 .email:hover {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7), 0 0 20px rgba(236, 36, 38, 0.7), 0 0 35px rgba(236, 36, 38, 0.7), 0 0 40px rgba(236, 36, 38, 0.7), 0 0 50px rgba(236, 36, 38, 0.7), 0 0 75px rgba(236, 36, 38, 0.7);
 }
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 25px 15px;
+    transition: all 0.25s;
+}
+
+.social:hover {
+    -webkit-filter: drop-shadow(0 0 20px rgba(236, 36, 38, 0.7)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+    filter: drop-shadow(0 0 20px rgba(236, 36, 38, 0.7)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+}
+
+.twitter {
+    transform: scale(1.3);
+}
