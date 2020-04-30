@@ -64,10 +64,17 @@ body {
     margin-top: 20px;
 }
 
+.listen ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .listen ul > li {
-    width: 50%;
-    max-width: 200px;
-    margin: 0 auto;
+    /* width: 50%; */
+    /* max-width: 200px; */
+    height: 40px;
+    margin: auto 10px;
     margin-bottom: 30px;
     transition: all 0.25s;
 }
@@ -75,6 +82,11 @@ body {
 .listen ul > li:hover {
     -webkit-filter: drop-shadow(0 0 20px rgba(236, 36, 38, 0.7)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
     filter: drop-shadow(0 0 20px rgba(236, 36, 38, 0.7)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+}
+
+.listen ul > li > a > img {
+    height: 100%;
+    width: initial;
 }
 
 
@@ -94,7 +106,7 @@ a {
 
 .description {
     color: white;
-    font-size: 15pt;
+    font-size: 18pt;
     width: 90%;
     max-width: 480px;
     margin: 0 auto;
@@ -143,4 +155,14 @@ a {
 
 .twitter {
     transform: scale(1.3);
+}
+
+.iframe {
+    display: block;
+    height: 100%;
+    width: 90%;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.08), 0 0 10px rgba(255, 255, 255, 0.08), 0 0 15px rgba(255, 255, 255, 0.08), 0 0 20px rgba(236, 36, 38, 0.08), 0 0 35px rgba(236, 36, 38, 0.08), 0 0 40px rgba(236, 36, 38, 0.08), 0 0 50px rgba(236, 36, 38, 0.08), 0 0 75px rgba(236, 36, 38, 0.08);
 }
